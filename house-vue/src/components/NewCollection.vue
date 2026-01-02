@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <section class="new-collection">
+    <section id="new-collection" class="new-collection">
         <div class="new-collection__container">
             <div class="collection-cont__header">
                 <img class="cont-header__img" src="../assets/ImageStar.svg" alt="">
@@ -28,7 +28,7 @@
     max-width: 90rem;
     width: 100%;
     height: 35.875rem;
-    background-image: url('@/assets/NewCollection.svg');
+    background-image: url('@/assets/NewCollection.png');
     background-size: cover;
     background-position: center;
     overflow: hidden;

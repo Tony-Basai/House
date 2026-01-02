@@ -2,9 +2,9 @@
 </script>
 
 <template>
-    <search class="hero">
+    <section id="hero" class="hero">
         <div class="hero__container">
-            <img class="hero__img" src="../assets/ImageHero.svg" alt="">
+            <img class="hero__img" src="../assets/ImageHero.png" alt="">
             <div class="hero__info">
                 <h1 class="hero-info__title">
                     Реплики картин от <span class="hero-title__span">Ink. House</span>
@@ -15,7 +15,7 @@
                 <button class="hero-info__button">Продукция</button>
             </div>
         </div>
-    </search>
+    </section>
 </template>
 
 <style scoped>

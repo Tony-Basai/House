@@ -2,9 +2,9 @@
 </script>
 
 <template>
-    <section class="team">
+    <section id="team" class="team">
         <div class="team__container">
-            <img class="team-container__img" src="../assets/Group.svg" alt="">
+            <img class="team-container__img" src="../assets/Group.png" alt="">
             <div class="team-container__info">
                 <h3 class="container-info__title">
                     Наша команда

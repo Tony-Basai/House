@@ -3,15 +3,21 @@
 
 <template>
     <nav class="nav">
-        <a class="nav__logo" href="">
+        <a class="nav__logo" href="#hero">
             <img class="nav__logo-img" src="../assets/Star-logo.svg" alt="">
             <h5 class="nav__logo-title">Ink. House</h5>
         </a>
         <div class="nav__items">
             <ul class="nav__list">
-                <li class="nav__list-item">Репродукции</li>
-                <li class="nav__list-item">Новинки</li>
-                <li class="nav__list-item">О нас</li>
+                <li class="nav__list-item">
+                    <a class="nav__list-item__link" href="#reproductions">Репродукции</a>
+                </li>
+                <li class="nav__list-item">
+                    <a class="nav__list-item__link" href="#new-collection">Новинки</a>
+                </li>
+                <li class="nav__list-item">
+                    <a class="nav__list-item__link" href="#team">О нас</a>
+                </li>
             </ul>
             <button class="nav__button-basket"></button>
         </div>
@@ -71,14 +77,15 @@
     list-style: none;
 }
 
-.nav__list-item{
+.nav__list-item__link{
     font-weight: 500;
     font-size: 1.25rem;
-    color: #2C2D35;
     cursor: pointer;
+    color: #2C2D35;
+    text-decoration: none;
 }
 
-.nav__list-item:hover{
+.nav__list-item__link:hover{
     color: #598D66;
 }
 

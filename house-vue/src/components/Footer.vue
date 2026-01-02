@@ -5,16 +5,16 @@
     <footer class="footer">
         <div class="footer__container">
             <div class="footer-container__contact">
-                <div class="contact__logo">
+                <a href="#hero" class="contact__logo-link">
                     <img class="contact-logo__img" src="../assets/FooterStar.svg" alt="">
                     <h5 class="contact__logo__title">
                         Ink. House
                     </h5>
-                </div>
+                </a>
                 <div class="contact__items">
-                    <p class="contact-items__numbers">
+                    <a href="tel:+7 (999) 543-54-54" class="contact-items__number">
                         +7 (999) 543-54-54
-                    </p>
+                    </a>
                     <p class="contact-items__text">
                         Мастерская
                     </p>
@@ -41,9 +41,15 @@
                 </div>
                 <div class="container-info__about-us">
                     <div class="about-us__social-media">
-                        <button class="social-media__button"><img src="../assets/Facebook.svg" alt=""></button>
-                        <button class="social-media__button"><img src="../assets/Instagram.svg" alt=""></button>
-                        <button class="social-media__button"><img src="../assets/YouTube.svg" alt=""></button>
+                        <a href="https://www.facebook.com/" class="social-media__button">
+                            <img src="../assets/Facebook.svg" alt="">
+                        </a>
+                        <a href="https://www.instagram.com/" class="social-media__button">
+                            <img src="../assets/Instagram.svg" alt="">
+                        </a>
+                        <a href="https://www.youtube.com/" class="social-media__button">
+                            <img src="../assets/YouTube.svg" alt="">
+                        </a>
                     </div>
                     <p class="about-us__info">Ink. House ®</p>
                     <p class="about-us__info">All rights reserved</p>
@@ -74,9 +80,10 @@
     gap: 2.1875rem;
 }
 
-.contact__logo{
+.contact__logo-link{
     display: flex;
     gap: 0.5rem;
+    text-decoration: none;
 }
 
 .contact-logo__img{
@@ -96,10 +103,11 @@
     grid-area: 0.5rem;
 }
 
-.contact-items__numbers{
+.contact-items__number{
     font-weight: 500;
     font-size: 1.25rem;
     color: #2C2D35;
+    text-decoration: none;
 }
 
 .contact-items__text{
@@ -149,8 +157,6 @@
 }
 
 .social-media__button{
-    background: none;
-    border: none;
     cursor: pointer;
 }
 
